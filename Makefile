@@ -1,4 +1,4 @@
-.PHONY: acceptance test lint docs devrun
+.PHONY: acceptance test lint docs rundev
 
 default: test
 

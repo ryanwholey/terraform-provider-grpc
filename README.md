@@ -1,5 +1,9 @@
 # terraform-provider-grpc
 
+A Terraform provider for making gRPC requests
+
+*Warning* This project is in an experimental phase and subject to change. 
+
 ## Usage
 
 ```hcl

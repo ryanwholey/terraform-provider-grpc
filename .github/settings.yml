@@ -1,0 +1,28 @@
+repository:
+  name: terraform-provider-grpc
+  description: A Terraform provider for making gRPC requests
+  topics: terraform, grpc, terraform-provider
+  homepage: https://registry.terraform.io/providers/ryanwholey/grpc/latest/docs
+
+  private: false
+
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+
+  allow_squash_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: false
+
+  delete_branch_on_merge: true
+  allow_auto_merge: true
+  default_branch: main
+
+branches:
+  - name: main
+    protection:
+      required_pull_request_reviews: null
+      required_status_checks: {}
+      enforce_admins: false    
+      required_linear_history: true
+      restrictions: null

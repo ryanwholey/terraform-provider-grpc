@@ -25,7 +25,7 @@ data "grpc_request" "list_resources" {
 output "requests" {
   value = {
     GetVersionInfo = jsondecode(data.grpc_request.get_version_info.body),
-    ListProjects   = jsondecode(data.grpc_request.list_projects.body),
+    ListResources  = jsondecode(data.grpc_request.list_resources.body),
   }
 }
 ```
